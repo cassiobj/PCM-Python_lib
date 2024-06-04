@@ -10,7 +10,6 @@ Prerequisites
 
 1. Python 2.7: Ensure that Python 2.7 is installed on your system.
 2. Oracle BRM 7.5: Ensure that Oracle BRM 7.5 is installed and properly configured.
-3. Development Tools: Make sure you have the necessary development tools installed, such as GCC (GNU Compiler Collection) and the python-dev package.
 
 Installation Steps
 
