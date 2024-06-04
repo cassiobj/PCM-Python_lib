@@ -9,7 +9,7 @@ PCM-Python is a Python 2.7 extension for Oracle BRM 7.5 (Linux 7.x), provided as
 Prerequisites
 
 1. Python 2.7: Ensure that Python 2.7 is installed on your system.
-2. Oracle BRM 7.5: Ensure that Oracle BRM 7.5 is installed and properly configured.
+2. Oracle BRM 7.5 PCM Lib Installed
 
 Installation Steps
 
