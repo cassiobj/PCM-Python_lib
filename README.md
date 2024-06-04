@@ -4,7 +4,7 @@ PCM-Python Installation Instructions
 
 Overview
 
-PCM-Python is a Python 2.7 extension for Oracle BRM 7.5, provided as a shared object file (PCMPy.so). This extension allows Python applications to interact with the Oracle BRM system efficiently.
+PCM-Python is a Python 2.7 extension for Oracle BRM 7.5 (Linux 7.x), provided as a shared object file (PCMPy.so). This extension allows Python applications to interact with the Oracle BRM system efficiently.
 
 Prerequisites
 
