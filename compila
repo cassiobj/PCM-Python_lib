@@ -1,0 +1,3 @@
+python setup.py build
+python setup.py install
+cp /usr/lib64/python2.7/site-packages/PCMPy.so /opt/portal/7.5/source/python/PCM-Python_lib
