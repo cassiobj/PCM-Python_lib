@@ -88,6 +88,7 @@ PyObject * pcm_create_poid(PyObject * self , PyObject *args);
 PyObject * pcm_get_poid_number(PyObject * self , PyObject *args);
 PyObject * pcm_get_poid_type(PyObject * self , PyObject *args);
 PyObject * pcm_get_poid_db(PyObject * self , PyObject *args);
+PyObject * pcm_pin_virtual_time(PyObject * self );
 
 //pcm_py_fields_ops.c
 PyObject * pcm_get_field_spec(PyObject * self , PyObject *args);

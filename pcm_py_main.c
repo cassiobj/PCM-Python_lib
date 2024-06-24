@@ -13,6 +13,12 @@
 #include <libxml/tree.h>
 
 
+PyObject * pcm_pin_virtual_time(PyObject * self )
+{
+    PIN_ERR_CLEAR_ERR(EBUFP);
+    pcm_log_message(PIN_ERR_LEVEL_DEBUG, EBUFP,  __PROGRAM__ "pin_virtual_time called.");
+    return Py_BuildValue("l", pin_virtual_time( (time_t *) NULL));
+}
 
 PyObject * pcm_execute_op(PyObject * self , PyObject *args)
 {
@@ -323,6 +329,9 @@ PyObject * set_context(PyObject * self, PyObject *args)
     
 
 }
+
+
+
 
 
 
