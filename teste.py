@@ -46,6 +46,17 @@ print("Initializating PCMPy Extension tests")
 
 
 
+try:
+    print("Testing pcm_pin_virtual_time()")
+    retorno = PCMPy.pcm_pin_virtual_time()
+    if ( retorno ) :
+        print("OK")
+        print(retorno)
+    else :
+        print("Error")
+except PCMPy.error as e:
+    print("Error pcm_pin_virtual_time: " , e)
+
 
 try:
     print("Conecting CM")

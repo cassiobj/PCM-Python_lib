@@ -26,7 +26,8 @@ PyMethodDef PCMPy_funcs[] = {
     {	"pcm_open_transaction",     (PyCFunction)pcm_open_transaction,      METH_VARARGS,       "Open Transaction"},
     {	"pcm_commit_transaction",   (PyCFunction)pcm_commit_transaction,    METH_NOARGS,        "Commit Transaction"},
     {	"pcm_abort_transaction",    (PyCFunction)pcm_abort_transaction,     METH_NOARGS,        "Abort Transaction"},
-    {	"pcm_pin_conf",             (PyCFunction)pcm_pin_conf,              METH_VARARGS,        "Get pin.conf information"},
+    {	"pcm_pin_conf",             (PyCFunction)pcm_pin_conf,              METH_VARARGS,       "Get pin.conf information"},
+    {	"pcm_pin_virtual_time",     (PyCFunction)pcm_pin_virtual_time,      METH_NOARGS,        "Return pin virtual time"},
         
 
 	{	NULL}
