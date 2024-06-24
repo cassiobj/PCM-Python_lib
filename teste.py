@@ -7,6 +7,7 @@
 
 
 import PCMPy
+import datetime
 
 #print(PCMPy.pcm_connect())
 
@@ -47,8 +48,8 @@ print("Initializating PCMPy Extension tests")
 
 
 try:
-    print("Testing pcm_pin_virtual_time()")
-    retorno = PCMPy.pcm_pin_virtual_time()
+    print("Testing pcm_pin_virtual_time()")    
+    retorno = datetime.datetime.fromtimestamp(PCMPy.pcm_pin_virtual_time())
     if ( retorno ) :
         print("OK")
         print(retorno)
